@@ -1,0 +1,16 @@
+<Project Sdk="Aspire.AppHost.Sdk/13.1.0">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <UserSecretsId>1eb7527d-6e4d-4f0a-bf77-0549fbdf8fb8</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Booky.ApiService\Booky.ApiService.csproj" />
+    <ProjectReference Include="..\Booky.Web\Booky.Web.csproj" />
+  </ItemGroup>
+
+</Project>
