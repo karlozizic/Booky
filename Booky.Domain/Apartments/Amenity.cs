@@ -1,4 +1,4 @@
-namespace Booky.Domain.Apstractions;
+namespace Booky.Domain.Apartments;
 
 public enum Amenity
 {

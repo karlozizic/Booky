@@ -1,5 +1,5 @@
 using Booky.Domain.Apartments;
-using Booky.Domain.Apstarctions;
+using Booky.Domain.Apstractions;
 using Booky.Domain.Users.Events;
 
 namespace Booky.Domain.Users;

@@ -1,6 +1,4 @@
-using Booky.Domain.Apstractions;
-
-namespace Booky.Domain.Apstarctions;
+namespace Booky.Domain.Apstractions;
 
 public abstract class Entity
 {

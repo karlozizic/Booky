@@ -1,4 +1,4 @@
-namespace Booky.Domain.Apartments;
+namespace Booky.Domain.Shared;
 
 public record Currency
 {

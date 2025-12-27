@@ -1,4 +1,4 @@
-namespace Booky.Domain.Apstarctions;
+namespace Booky.Domain.Apstractions;
 
 public interface IUnitOfWork
 {
