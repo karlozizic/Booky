@@ -1,5 +1,6 @@
 using Booky.Domain.Apartments;
 using Booky.Domain.Apstarctions;
+using Booky.Domain.Users.Events;
 
 namespace Booky.Domain.Users;
 
@@ -24,6 +25,10 @@ public sealed class User : Entity
         LastName lastName,
         Email email)
     {
-        return new User(Guid.NewGuid(), firstName, lastName, email);
+        var user = new User(Guid.NewGuid(), firstName, lastName, email);
+        
+        user.RaiseDomainEvent(new UserCreatedDomainEvent(user.Id));
+
+        return user;
     }
 }
